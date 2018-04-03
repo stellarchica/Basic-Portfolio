@@ -58,7 +58,6 @@ ul {
 li {
 }
 
-
 .container {
     border-style: solid;
     border-color: black;
@@ -67,12 +66,13 @@ li {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 40px auto;
     width: 960px;
+    height: 525px;
     padding: 0px;
     position: relative;
 }
 
 p {
-    line-height: 25px;
+    line-height: 30px;
     margin-left: 5%;
     margin-right: 5%;
 }
