@@ -1,7 +1,3 @@
-#topnav {
-}
-
-
 header {
     background: #4aaaa5;
     height: 100px;
@@ -9,12 +5,45 @@ header {
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif;
     z-index: 1;
-    position: static;
+    position: relative;
 }
 
 h1 {
     color: #fff;
-    padding-top: 30px;
+    padding-top: 15px;
+}
+
+.navigation {
+    align-self: flex-start;
+    color: #777777;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #fff;
+    /* margin-left: 10%; */
+    border-bottom-style: solid;
+    border-color: #777777;
+    border-width: 0.5px;
+    margin: 0px auto;
+}
+
+h4 {
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    /* margin-right: 5%; */
+    word-spacing: 10px;
+    margin-top: 40px;
+}
+
+/* unvisited link */
+a:link {
+    color: #777777;
+}
+
+/* visited link */
+a:visited {
+    color: #381566;
 }
 
 img {
@@ -41,34 +70,10 @@ h2 {
 }
 
 body {
-    background-color: lightgray;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     margin: 0 auto;
     position: relative;
-}
-
-.navigation {
-    text-align: right;
-    border-bottom-style: solid;
-    border-width: 1px;
-    background-color: lightgray;
-    margin: 40px auto;
-    width: 960px;
-    position: static;
-}
-
-ul {
-    list-style-type: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: #fff;
-}
-
-.links {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    background-image: url("file:///Users/sarahmartinez/Desktop/coding_bootcamp/week_one/homework_one/dust_scratches/dust_scratches.png");
 }
 
 .container {
@@ -77,9 +82,8 @@ ul {
     border-width: 1px;
     background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: 40px auto;
+    margin: auto;
     width: 960px;
-    height: 585px;
     padding: 0px;
     position: relative;
 }
@@ -131,13 +135,13 @@ footer {
 
 #button {
     background-color: #4aaaa5;
-    border: none;
-    color: white;
+    width: 50px;
+    height: 25px;
     padding: 10px 40px;
-    text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 24px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
 }
 
 .portfoliocontainer {
