@@ -6,59 +6,50 @@
     <title>Sarah Martinez Portfolio</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-            
-    <div class="navigation" style="clear:both">
-        <header style="float:left">
-                    <h1 class="header">
-                        Sarah Martinez
-                    </h1>            
-        </header>
-            <h6 class="hover">
-                <a href="index.html">About</a> |
-                <a href="portfolio.html">Portfolio</a> |
+
+<body>
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Your Name</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
                 <a href="contact.html">Contact</a>
-            </h6>
-    </div>
+            </nav>
+        </div>
+    </header>
         
-    <body>
             
-        <div class="contactcontainer" style="clear:both">
-            <h2>Contact</h2>
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                            <input type="submit">
+                </form>                   
+        </section>
+    </div>
 
-                <section id="contact">
-
-                    <form action="action_page.php">
-
-                        <label for="fullname">Name</label><br>
-                            <input type="text" id="fullname" name="fullname" style="height:35px; width:860px;">
-                        <br><br>
-                        
-                        <label for="email">Email</label><br>
-                            <input type="text" id"email" name="email" style="height:35px; width:860px;">
-                        <br><br>
-                        
-                        <label for="message">Message</label><br>
-                            <textarea id="message" name="message" style="height:200px; width:860px;"></textarea>
-                        <br>
-
-                            <section id="button">
-                                Submit
-                            </section>
-
-                    
-                    </form>
-
-                </section>
-
+    <footer>
+        <div class="container">
+            Copyright 2018.
         </div>
+    </footer>
 
-        <div class="copyright">
-            <footer>
-                Copyright 2018.
-            </footer>
-        </div>
-
-    </body>
+</body>
 
 
 </html>
